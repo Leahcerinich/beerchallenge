@@ -3,7 +3,7 @@ First collection of data is the hardware or thermostat
 
 Second part of data is the API - Working out what to do with the data 
 
-Collected all the data through arrays (hardware/thermostat) (assumption) I used a loop with an if else statement to work out what to do (with the API)
+Collected all the data through arrays (hardware/thermostat) (assumption) I used a full loop with an if else statement to work out what to do (with the API)
 
 My first solution was using if else statements assessing each container and the safe and danger zone within each container. I realised that it was so many lines of code - So I decided to refactor using a full loop and a else if statement to log it onto the console.
 
