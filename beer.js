@@ -2,13 +2,13 @@
 // collecting the data from the thermostat 
 beers = [
     {
-        current_temperature: 5,
+        current_temp: 5,
         max_temp: 6,
         min_temp: 4,
         name: "Heineken"
     },
     {
-        current_temperture: 4.5,
+        current_temp: 4.5,
         max_temp: 6,
         min_temp: 5,
         name: "150 lashes"
