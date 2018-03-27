@@ -1,11 +1,8 @@
-// collecting the data from the thermostat - Using Arrays of data assuming that the data is true - this is a calculation of all containers at their current temp max temp and min temp.
-
-// What I've done here is created a list of containers using Arrays which allows me to collect all the data through the full loop. 
-
+// collecting the data from the thermostat - Using Arrays of data assuming that the data is true - this is a calculation of all containers at their current temp max temp and min temp through objects.
 // Each container is consisted of 4 different variables - current temp, max temp, min temp and the beer name. 
 
 beers = [{ 
-		current_temp: 6, 
+		current_temp: 6, // objects properties of each beer 
 		max_temp: 6,
 		min_temp: 4,
 		name: "Heineken"
@@ -36,12 +33,8 @@ beers = [{
 		min_temp: 3,
 		name: "corona"
 	},
-]
-
-// What I've done here is created a list of containers using varaiables made code them into arrays me to collect all the data through a full loop.
 
 // from this data we have managed to full loop with the each arrays assuming current temp is less or = to min temp OR current temp <= max temp 
-
 // orginally I has an else if statement for each array, but there was alot of code - So I've refactored it to a full loop where is constantly checks the temp of the 5 containers of beer.
 
 function check_Beers(beers) {
